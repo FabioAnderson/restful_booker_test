@@ -69,20 +69,20 @@ In addition to having the configuration file, to run the tests through CircleCI.
   - Gemfile -> Where used packages are listed.
   - cucumber.yml -> Where some run configurations are made.
 
-# 3 - Details of why I think I did a good job testing it.
+# 4 - Details of why I think I did a good job testing it.
 To validate various Restful-Booker functionalities, I made sure to test a variety of different scenarios. There are both positive and negative test cases.
 I carefully examined the core operations of Restful-Booker to make sure they worked as they should. Creating reservations, getting access to reservation information, editing reservations, and deleting reservations all fall under this category.
 Paid close attention to input validation, making sure that unexpected or invalid input was dealt with appropriately. This helps to guard against potential security flaws and guarantees that the application functions properly in a variety of situations.
 
 
-# 4 - Suggestions as to how I would build an effective test framework for use by the product development team (developers and testers) in terms of maintenance, extension and execution of these tests.
+# 5 - Suggestions as to how I would build an effective test framework for use by the product development team (developers and testers) in terms of maintenance, extension and execution of these tests.
 To build an effective test framework for the product development team I have to use an automation framework that supports the technology stack used in your product, with these automated tests, it would be easier to guarantee quality and scalability.
 I would build scenarios thinking in modularity and reusability, minimizing code duplication and helping with maintenance.
 Create report and loggings, and if possible, create alerts on the team's communication tools (slack for example).
 And Integrate my test framework with CI/CD tools, like Jenkins or CircleCI.
 
 
-# Suggestions as what factors are important to creating and maintaining an effective suite of tests in the long term.
+# 6 - Suggestions as what factors are important to creating and maintaining an effective suite of tests in the long term.
 In order to do that, I would take care of test coverage, Ensuring the coverage of the functionalities. Create well-designed scenarios, and perform test automation.
 And of course, don't forget about maintaining documentation and references.
 

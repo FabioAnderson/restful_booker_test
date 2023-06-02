@@ -1,0 +1,1 @@
+default: --format pretty --format html --out data/reports/<%= Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
